@@ -2,6 +2,9 @@ import React from 'react'
 import './Footer.css'
 import Logo from '../assets/logo-white.png'
 import Socialicons from '../component/common_components/socialicons/Socialicons'
+import { FaApple } from "react-icons/fa";
+import { IoLogoAndroid } from "react-icons/io";
+
 function Footer() {
     return (
         <div className='Footer'>
@@ -9,8 +12,10 @@ function Footer() {
                 <div className='cta_footer text-white flex_column'>
                     <h2 className='flex-1'>Protect Your Devices with
                         Our App Discretion Solutions</h2>
-                    <div className='cta_button flex_column flex-1 gap-3 justify-content-end'><button className='button bg-white text-dark' >Download iOS</button>
-                        <button className='button border-button bg-transparent '>Download Android</button></div>
+                    <div className='cta_button flex_column flex-1 gap-3 justify-content-end'>
+                        <button className='button bg-white text-dark' ><FaApple /> Download iOS</button>
+                        <button className='button border-button bg-transparent '><IoLogoAndroid /> Download Android</button>
+                    </div>
                 </div>
 
             </div>
@@ -46,8 +51,8 @@ function Footer() {
                                 <li>Subscribe our newsletter to get more free design course and resource.</li>
                                 <form >
                                     <div className='subscribe-box'>
-                                    <input type='email' placeholder='Enter your email *' />
-                                    <input type='submit' />
+                                        <input type='email' placeholder='Enter your email *' />
+                                        <input type='submit' />
                                     </div>
                                 </form>
                             </ul>

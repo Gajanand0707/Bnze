@@ -21,10 +21,10 @@ function Navber() {
                             <li className="nav-item">
                                 <Link to="/Service" className="nav-link" >Service</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link to="/" className="nav-link" >Pages</Link>
-                            </li>
-                            <li className="nav-item dropdown">
+                            </li> */}
+                            {/* <li className="nav-item dropdown">
                                 <Link  to="/"  className="nav-link dropdown-toggle"   id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Blogs
                                 </Link>
@@ -34,9 +34,9 @@ function Navber() {
 
                                     <li><Link  to="/"  className="dropdown-item"  >Something else here</Link></li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
-                                <Link to="/about" className="nav-link">Contact us</Link>
+                                <Link to="/Contact" className="nav-link">Contact us</Link>
                             </li>
                           
 
@@ -44,7 +44,7 @@ function Navber() {
 
                     </div>
                     <div className='buttons_banner'>
-                            <button className='button bg-dark'>Contact us</button>
+                            <button className='button bg-dark'> <Link to="/Contact" className='text-white text-decoration-none' >Contact us </Link></button>
                         </div>
                 </div>
             </nav>

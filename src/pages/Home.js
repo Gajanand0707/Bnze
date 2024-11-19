@@ -18,7 +18,7 @@ function Home() {
       <Playout />
       <Review />
       <Blog />
-      <Footer />
+ 
     </div>
   )
 }
