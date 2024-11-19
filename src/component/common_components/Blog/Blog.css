@@ -1,0 +1,35 @@
+.Blog{
+    padding: 100px 20px;
+}
+
+.blog-tags{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+.blog-tags span{
+    background: rgba(0, 120, 253, 0.06);
+    color: #090909;
+    padding: 5px 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.blog_item a{
+    color: #090909;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease-out 0s;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .Blog{
+        padding: 60px 20px;
+    }
+}

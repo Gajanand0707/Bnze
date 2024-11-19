@@ -1,0 +1,109 @@
+.cta_footer{
+    padding: 60px 50px;
+    background-image: url(../assets/Home/call-shape.png);
+    background-color:#242F93;
+    border-radius: 30px;
+    background-size: cover;
+    margin-bottom: -120px;
+    position: relative;
+    z-index: 3;
+}
+
+.cta_button .border-button.bg-transparent{
+    box-shadow: 0px 0px 0px 1.5px rgba(255, 255, 255, 0.2);
+}
+
+.App .Footer h2{
+    font-size: 38px;
+}
+footer{
+padding: 200px 20px 100px 20px;
+background-image: url(../assets/Home//header-bg.jpg);
+background-size: cover;
+}
+footer img{
+max-width: 150px;
+}
+footer h5{
+    color: #fff;
+    font-weight: 500;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+footer ul{
+    padding-left: 0;
+}
+footer ul li{
+    list-style: none;
+    margin: 10px 0;
+    color: #ffffff99;
+    font-size: 17px;
+    line-height: 25px;
+}
+.foter_link_list{
+    padding: 0 80px !important;
+}
+.subscribe-box input[type="email"] {
+    background-color: transparent;
+    font-size: 17px;
+    padding: 5px 0;
+    color: #fff;
+    border: none;
+    width: 100%;
+}
+.subscribe-box input[type="submit"] {
+    background-color: var(--blue);
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.6s all;
+    border: none;
+}
+input{
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.subscribe-box input[type="submit"]:hover{
+    background-color: var(--dark);
+}
+.subscribe-box {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .cta_footer {
+        width: 97%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .App .Footer h2{
+        font-size: 30px;
+    }
+    .cta_footer{
+        padding: 40px 20px;
+        width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .cta_button{
+        width: 100%;
+    }
+    .cta_button button{
+        width: 100%;
+      margin-bottom:0px ;
+    }
+    .foter_link_list{
+        margin: 20px 0;
+        margin-top: 20px !important;
+        padding: 0 12px !important;
+    }
+    footer{
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,12 @@
+.Commonbanner {
+    padding: 220px 20px 120px 20px;
+    background-image: url(../../../assets/Home//header-bg.jpg);
+    background-size: cover;
+}
+
+.Commonbanner h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}

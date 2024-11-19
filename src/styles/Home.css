@@ -1,0 +1,113 @@
+.Banner{
+    height: 118vh;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    gap: 24px;
+    position: relative;
+    background-image: url(../assets/Home/header-bg.jpg);
+}
+.Banner h1{
+    max-width: 900px;
+}
+.vector {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.Banner p{
+    max-width: 600px;
+}
+.Dashboard{
+    max-width: 1400px;
+    width: 95%;
+   
+}
+.Dashboard .image_brop_shodow{
+    margin-top: -220px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+.Creative_design{
+    padding: 100px 20px;
+}
+.text_Creative_design {
+    padding-left: 100px;
+}
+.Playout .text_Creative_design{
+    padding-right: 100px;
+    padding-left: 0;
+}
+.playout_list{
+    font-weight: 500;
+    color: var(--dark);
+    padding: 5px 0;
+    font-size: 14px;
+    position: relative;
+    padding-left: 15px;
+    max-width: 300px;
+}
+.playout_list li{
+    padding:10px 0;
+}
+
+.Review{
+    background-image: url(../assets/Home/header-bg.jpg);
+    background-size: cover;
+}
+.slider_Review{
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .Banner{
+        height: auto;
+        padding: 150px 20px 250px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column  ;
+        gap: 16px;
+        position: relative;
+        background-image: url(../assets/Home/header-bg.jpg);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Banner{
+        height: auto;
+        padding: 100px 20px 100px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column  ;
+        gap: 16px;
+        position: relative;
+        background-image: url(../assets/Home/header-bg.jpg);
+    }
+    .Dashboard .image_brop_shodow{
+        margin-top: -80px;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        backdrop-filter: blur(5px);
+        border-radius: 20px;
+        padding: 30px;
+    }
+    .Creative_design{
+        padding: 40px 20px;
+    }
+    .text_Creative_design {
+        padding-left:0px;
+        margin-top: 50px;
+    }
+    .slider_Review{
+        padding: 0;
+    }
+}

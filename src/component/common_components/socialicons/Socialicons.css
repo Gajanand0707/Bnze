@@ -1,0 +1,20 @@
+.author-social{
+    display: flex;
+    gap: 5px;
+}
+.author-social .icons{
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFFFFF1A;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease-out 0s;
+}
+.author-social .icons:hover{
+    background-color: var(--blue);
+    color: #fff;
+}

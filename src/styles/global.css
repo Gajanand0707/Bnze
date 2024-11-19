@@ -1,0 +1,148 @@
+:root{
+    --dark:#000;
+    --blue:#0078FD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+body {
+    font-family: "Roboto", sans-serif !important;
+    position: relative;
+}
+.container_main{
+    max-width: 1440px ;
+    width: 100%;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+
+.App h1 {
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 86px;
+
+}
+
+.App h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 56px;
+    margin-top: 14px;
+    margin-bottom: 21px;
+}
+
+.App p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.bg-dark {
+    background: var(--dark);
+}
+
+.bg-blue {
+    background: var(--blue);
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
+.border-button {
+    box-shadow: 0px 0px 0px 1.5px #403D41;
+}
+button.button.bg-dark:hover{
+    background: var(--blue) !important;
+}
+button.button.bg-blue:hover{
+    background: var(--dark);
+}
+button.button.bg-transparent.border-button:hover{
+    color: var(--blue);
+    box-shadow: 0px 0px 0px 1.5px #0078FD;
+}
+button.button.bg-white.text-dark:hover{
+    background-color: var(--dark) !important;
+    color: #fff !important;
+}
+.button {
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 0.6s all;
+}
+
+
+.container_main {
+    width: 100%;
+    max-width: 1400px !important;
+    margin: 0 auto;
+}
+.headings_text{
+    max-width: 640px;
+    margin:  0 auto;
+    padding-bottom: 50px;
+}
+.flex_column {
+    display: flex;
+    align-items: center;
+  
+}
+.flex-1{
+    flex:1;
+}
+.App p.sub_heading{
+    font-size: 16px;
+    color: var(--blue);
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.line{
+    height: 1px;
+    background-color: rgba(9, 9, 9, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .App h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 46px;
+    
+    }
+    
+    .App h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 14px;
+        margin-bottom: 21px;
+    }
+    
+    .App p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .flex_column {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+    .button{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
