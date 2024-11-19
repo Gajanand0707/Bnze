@@ -15,11 +15,16 @@
 }
 .brand_logo img{
     object-fit: contain;
-    width: auto;
+    /* width: auto; */
 }
-
+.logo_box{
+    padding: 30px;
+}
 @media only screen and (max-width: 768px) {
     .Logos{
         padding: 40px 20px;
+    }
+    .logo_box{
+        padding: 20px;
     }
 }

@@ -27,6 +27,19 @@ img {
     font-size: 74px;
     font-weight: 700;
     line-height: 86px;
+    background: linear-gradient(
+        to right,
+        #fff 20%,
+        #0078FD 30%,    
+        #0078FD 70%,
+        #fff 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
 
 }
 
@@ -144,5 +157,13 @@ button.button.bg-white.text-dark:hover{
     .button{
         width: 100%;
         margin-bottom: 20px;
+    }
+}
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
     }
 }
